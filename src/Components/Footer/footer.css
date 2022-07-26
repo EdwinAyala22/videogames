@@ -1,0 +1,18 @@
+.line-footer{
+    background-color: #30353a;
+}
+
+.l-image{
+    background-color: #30353a;
+    border-radius: 50%;
+}
+.l-image:hover{
+    background-color: #0CCBFF;
+}
+.image{
+    color: #0CCBFF;
+}
+
+.image:hover{
+    color: #30353a;
+}
