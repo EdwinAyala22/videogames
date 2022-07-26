@@ -1,9 +1,6 @@
 import React from 'react';
 import logoNav from '../Assets/img/logoNav.jpg';
-import { BsFacebook } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
-import { BsGithub } from "react-icons/bs";
+import { BsFacebook, BsYoutube, BsInstagram, BsGithub } from "react-icons/bs";
 import './footer.css';
 
 const FooterApp = () => {
@@ -25,10 +22,10 @@ const FooterApp = () => {
                     <h5 className="mt-2 mb-2">Correo: esayala86@misena.edu.co</h5>
                 </div>
                 <div className="d-flex justify-content-center align-items-center p-2">
-                    <a href="" className="l-image m-1"><BsFacebook size={25} className="image m-3" /></a>
-                    <a href="" className="l-image m-1"><BsInstagram size={25} className="image m-3" /></a>
-                    <a href="" className="l-image m-1"><BsTwitter size={25} className="image m-3" /></a>
-                    <a href="" className="l-image m-1"><BsGithub size={25} className="image m-3" /></a>
+                    <a href="https://www.facebook.com/edwin.ayala.7777" className="l-image m-1"><BsFacebook size={25} className="image m-3" /></a>
+                    <a href="https://www.instagram.com/sebas.ayala_0225/" className="l-image m-1"><BsInstagram size={25} className="image m-3" /></a>
+                    <a href="https://www.youtube.com/channel/UCmihyDzkpWxAEu6emzz6jFw" className="l-image m-1"><BsYoutube size={25} className="image m-3" /></a>
+                    <a href="https://github.com/EdwinAyala22" className="l-image m-1"><BsGithub size={25} className="image m-3" /></a>
                 </div>
             </div>
             <div className="row line-footer m-0 p-3 text-center text-white">

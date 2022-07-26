@@ -1,0 +1,9 @@
+.buttonCard{
+    background-color: #0CCBFF;
+    color: white;
+    border: #0CCBFF;
+}
+
+.buttonCard:hover{
+    background-color: #212529;
+}
