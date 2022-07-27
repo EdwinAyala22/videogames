@@ -1,20 +1,26 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
+import ButtonCard from "../Button/Index";
 import Card from "react-bootstrap/Card";
 import './card.css';
 
 
-const CardApp = (props) => {
+const CardApp = ({imageSrc, title, text}) => {
   return (
-    <Card style={{ width: "18rem" }} className="m-5 text-center">
-      <Card.Img variant="top" src={props.imageSrc} />
+    <Card style={{ width: "18rem" }} className="m-5 text-center cardApp">
+      <Card.Img variant="top" src={imageSrc} />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title>{title}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          <p>
+            {text}
+          </p>
+          
         </Card.Text>
-        <Button className="buttonCard" >Go somewhere</Button>
+        <div>
+          <ButtonCard type={'submit'} name={'Go somewhere'}/>
+        </div>
+        {/* <Button className="buttonCard">Go somewhere</Button> */}
       </Card.Body>
     </Card>
   );
